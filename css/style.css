@@ -32,8 +32,30 @@ main {
     background-color: #0086ff;
 }
 
+.top {
+    width: 100%;
+    height: 70px; /* da togliere */
+    background-color:#abcfe7;
+}
+
+aside {
+    width: 25%;
+    height: calc(400px - 70px); /* da togliere */
+    background-color:#abcfe7;
+    border: 1px solid white;
+}
+
+section {
+    width: 50%;
+    height: calc(400px - 70px); /* da togliere */
+    background-color:#abcfe7;
+    border: 1px solid white;
+}
 
 
+.float {
+    float: left;
+}
 
 
 /* fine main */
