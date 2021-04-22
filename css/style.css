@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black; /* da togliere */
 }
 
 .clearfix::after {
@@ -14,8 +13,6 @@
 .container {
     width: 80%;
     margin: 20px auto;
-    /* height: 900px;  da togliere */
-    /* background-color: cadetblue; */
 }
 
 header {
@@ -58,11 +55,9 @@ main section {
     margin: 15px;
 }
 
-
 .float {
     float: left;
 }
-
 
 /* fine main */
 
