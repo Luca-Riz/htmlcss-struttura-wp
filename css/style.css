@@ -5,6 +5,12 @@
     background-color: black; /* da togliere */
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container {
     width: 80%;
     margin: 20px auto;
@@ -28,7 +34,7 @@ header {
 /* inizio main */
 main {
     width: 100%;
-    height: 400px; /* da togliere */
+    /* height: 400px;  da togliere */
     background-color: #0086ff;
 }
 
@@ -39,17 +45,17 @@ main {
 }
 
 aside {
-    width: 25%;
+    width: calc(25% - 15px);
     height: calc(400px - 70px); /* da togliere */
     background-color:#abcfe7;
-    border: 1px solid white;
+    margin: 15px 0;
 }
 
-section {
+main section {
     width: 50%;
     height: calc(400px - 70px); /* da togliere */
     background-color:#abcfe7;
-    border: 1px solid white;
+    margin: 15px;
 }
 
 
